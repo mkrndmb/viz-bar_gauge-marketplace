@@ -9,6 +9,7 @@ var webpackConfig = {
   },
   devServer: {
     contentBase: './dist',
+    disableHostCheck: true,
   },
   output: {
     filename: "[name].js",
